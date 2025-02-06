@@ -15,7 +15,7 @@ header {
     width: 100%;
     box-sizing: border-box;
     padding: 15px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 h1 {
@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 section {
-    padding: 20px;
+    padding: 15px;
     margin: 20px;
     background: #fff;
     border-radius: 8px;
@@ -52,8 +52,8 @@ section {
 }
 
 footer {
-    height: 100px;
-    line-height: 100px;
+    height: 50px;
+    line-height: 50px;
     color: #333;
     text-align: left;
     padding-left: 20px;
