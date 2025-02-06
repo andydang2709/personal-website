@@ -72,3 +72,16 @@ footer {
     /* max-width: 1200px; */
     margin: 0 auto;
 }
+
+.information .personal-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.information .logo {
+    width: 20px;
+    padding-right: 30px;
+    height: auto;
+    border-radius: 50%;
+}
