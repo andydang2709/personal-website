@@ -149,31 +149,14 @@ p {
     margin: 0 auto;
 }
 
-/* .project {
-    width: 90%;
-    padding: 15px;
-    margin: 10px;
-    background: #fff;
-    border-radius: 8px;
-    margin: 0 auto;
-}
-
-.project-image {
-    width: 200px;
-    height: 200px;
-    vertical-align: middle;
-    margin-right: 5px;
-} */
-
 .project-link {
+    display: flex;
     text-decoration: none; /* Removes default link underline */
     color: inherit; /* Keeps text color unchanged */
-    display: block; /* Ensures the entire div is clickable */
-    /* width: fit-content; */
 }
 
 .project {
-    display: flex;
+    display: block;
     align-items: center; /* Aligns items vertically */
     border: 1px solid #ddd; /* Optional: Adds a border */
     padding: 10px;
@@ -183,6 +166,7 @@ p {
     background-color: white; /* Ensures clear background */
     max-width: 90%; /* Adjust width if needed */
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .project:hover {
@@ -213,12 +197,18 @@ p {
 
 .project-details-right {
     width: 80%; 
-    float:right; 
-    text-align: right
+    display: flex;
+    flex-direction: column; /* Stacks text elements */
+    justify-content: center; /* Centers vertically */
+    align-items: flex-end; /* Aligns text to the left */
+    text-align: right; /* Ensures text remains left-aligned */
 }
 
 .project-details-left {
     width: 80%; 
-    float:left; 
-    text-align: left
+    display: flex;
+    flex-direction: column; /* Stacks text elements */
+    justify-content: center; /* Centers vertically */
+    align-items: flex-start; /* Aligns text to the left */
+    text-align: left; /* Ensures text remains left-aligned */
 }
